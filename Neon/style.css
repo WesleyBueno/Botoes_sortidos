@@ -1,0 +1,524 @@
+body{
+    background-color: RGB(53, 1, 76);
+
+   
+}
+.neon{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Button A*/
+
+.btna{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btna button{
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 17px;
+    background-color: transparent;
+    border-color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    color:  rgb(161, 159, 159);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btna button:nth-child(1):hover{
+    color: #ff1f71;
+    text-shadow: 0px 0px 12px #ff1f71;
+    border-color: #ff1f71;
+    box-shadow: 0px 0px 12px #ff1f71;
+}
+
+.btna button:nth-child(2):hover{
+    color: #2bd2ff;
+    text-shadow: 0px 0px 12px #2bd2ff;
+    border-color: #2bd2ff;
+    box-shadow: 0px 0px 12px #2bd2ff;
+}
+
+.btna button:nth-child(3):hover{
+    color: #1eff45;
+    text-shadow: 0px 0px 12px #1eff45;
+    border-color: #1eff45;
+    box-shadow: 0px 0px 12px #1eff45;
+}
+
+/*Button A*/
+
+/*Button B*/
+
+.btnb{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnb button{
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 17px;
+    border-color: rgb(161, 159, 159);
+    background-color: transparent;
+    color:rgb(161, 159, 159) ;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btnb button:hover{
+    background-color: rgb(0, 60, 255);
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(86, 123, 245);
+    box-shadow: 0px 0px 12px rgb(0, 60, 255);
+}
+
+.btnb button:nth-child(1):hover{
+    background-color: rgb(225, 0, 255);
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(245, 86, 197);
+    box-shadow: 0px 0px 12px rgb(225, 0, 255);
+}
+
+.btnb button:nth-child(2):hover{
+    background-color: rgb(0, 60, 255);
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(86, 123, 245);
+    box-shadow: 0px 0px 12px rgb(0, 60, 255);
+}
+
+.btnb button:nth-child(3):hover{
+    background-color: rgb(3, 228, 52);
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(86, 245, 113);
+    box-shadow: 0px 0px 12px rgb(0, 255, 55);
+}
+
+/*Button B*/
+
+/*Button C*/
+
+.btnc{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnc button{
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 17px;
+   
+    background-color: transparent;
+    color:rgb(161, 159, 159) ;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.btnc button:nth-child(1):hover{
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(245, 86, 197);
+    box-shadow: 0px 0px 12px rgb(225, 0, 255);
+}
+
+.btnc button:nth-child(2):hover{
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(86, 123, 245);
+    box-shadow: 0px 0px 12px rgb(0, 60, 255);
+}
+
+.btnc button:nth-child(3):hover{
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border-color:  rgb(86, 245, 113);
+    box-shadow: 0px 0px 12px rgb(0, 255, 55);
+}
+
+/*Button C*/
+
+
+/*Button F*/
+
+.btnd{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnd a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #ff1f71;
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+    transition: 0.5s;
+}
+
+.btnd a:hover{
+    color: #000;
+    transition-delay: 0.5s;
+    box-shadow: 0 0 10px #ff1f71,
+    0 0 20px #ff1f71,
+    0 0 40px #ff1f71;
+}
+
+.btnd a span{
+    position: relative;
+    z-index: 100;
+}
+
+.btnd a:nth-child(2){
+    filter: hue-rotate(230deg);
+}
+.btnd a:nth-child(3){
+    filter: hue-rotate(200deg);
+}
+.btnd a::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: #ff1f71;
+    box-shadow: 5px -8px 0 #ff1f71,
+                5px  8px 0 #ff1f71;
+                transition: width 0.3s, left 0.3s, height 0.3s, box-shadow 0.3s;
+                transition-delay: 0.5s, 0.3s, 0s, 0s;
+}
+
+.btnd a:hover::before{
+    width: 60%;
+    height: 100%;
+    left: -2px;
+    box-shadow: 5px 0 0 #ff1f71,
+                5px 0 0 #ff1f71;
+    transition-delay: 0s, 0s, 0.3s, 0.5s;
+}
+
+.btnd a::after{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: #ff1f71;
+    box-shadow: -5px -8px 0 #ff1f71,
+                -5px  8px 0 #ff1f71;
+                transition: width 0.3s, left 0.3s, height 0.3s, box-shadow 0.3s;
+                transition-delay: 0.5s, 0.3s, 0s, 0s;
+}
+
+.btnd a:hover::after{
+    width: 60%;
+    height: 100%;
+    right: -2px;
+    box-shadow: -5px 0 0 #ff1f71,
+                -5px 0 0 #ff1f71;
+    transition-delay: 0s, 0s, 0.3s, 0.5s;
+}
+
+
+
+/*Button E*/
+
+.btne{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btne .btn{
+    position: relative;
+    width: 155px;
+    height: 50px;
+    margin: 60px;
+}
+
+.btne .btn a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    color: white;
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+
+.btne .btn:hover a{
+    letter-spacing: 3px;
+}
+
+.btne .btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0.15),
+    transparent);
+    transform: skewX(45deg) translateX(0);
+    transition: 0.5s;
+}
+
+
+.btne .btn:hover a::before{
+    transform: skewX(45deg) translateX(200%);
+}
+
+.btne .btn:nth-child(1):before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #ff1f71;
+    box-shadow: 0 0 5px #ff1f71,
+    0 0 15px #ff1f71,
+    0 0 30px #ff1f71,
+    0 0 60px #ff1f71;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-delay: 0s;
+}
+
+.btne .btn:nth-child(2):before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #2bd2ff;
+    box-shadow: 0 0 5px #2bd2ff,
+    0 0 15px #2bd2ff,
+    0 0 30px #2bd2ff,
+    0 0 60px #2bd2ff;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-delay: 0s;
+}
+
+.btne .btn:nth-child(3):before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #1eff45;
+    box-shadow: 0 0 5px #1eff45,
+    0 0 15px #1eff45,
+    0 0 30px #1eff45,
+    0 0 60px #1eff45;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-delay: 0s;
+}
+
+.btne .btn:hover::before{
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.2s;
+}
+
+
+/*Button E*/
+
+/*Button D*/
+
+.btnf{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnf .btn{
+    position: relative;
+    width: 155px;
+    height: 50px;
+    margin: 60px;
+}
+
+.btnf .btn a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    color: white;
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+
+.btnf .btn:hover a{
+    letter-spacing: 3px;
+}
+
+.btnf .btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0.15),
+    transparent);
+    transform: skewX(45deg) translateX(0);
+    transition: 0.5s;
+}
+
+.btnf .btn:hover a::before{
+    transform: skewX(45deg) translateX(200%);
+}
+
+.btnf .btn::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.btnf .btn:hover::before{
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.2s;
+}
+
+.btnf .btn::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.btnf .btn:hover::after{
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.2s;
+}
+
+.btnf .btn:nth-child(1)::before,
+.btnf .btn:nth-child(1)::after{
+    background: #ff1f71;
+    box-shadow: 0 0 5px #ff1f71,
+    0 0 15px #ff1f71,
+    0 0 30px #ff1f71,
+    0 0 60px #ff1f71;
+}
+
+.btnf .btn:nth-child(2)::before,
+.btnf .btn:nth-child(2)::after{
+    background: #2bd2ff;
+    box-shadow: 0 0 5px #2bd2ff,
+    0 0 15px #2bd2ff,
+    0 0 30px #2bd2ff,
+    0 0 60px #2bd2ff;
+}
+
+.btnf .btn:nth-child(3)::before,
+.btnf .btn:nth-child(3)::after{
+    background: #1eff45;
+    box-shadow: 0 0 5px #1eff45,
+    0 0 15px #1eff45,
+    0 0 30px #1eff45,
+    0 0 60px #1eff45;
+}

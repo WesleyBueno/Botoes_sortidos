@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+.casuais{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Button A*/
+.btna{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btna button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background:  #0fe73e;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 17px;
+    transition: 0.4s;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.14));
+}
+
+.btna button:hover{
+    background-color: white;
+    color: black;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.205));
+}
+/*Button A*/
+
+/*Button B*/
+
+.btnb{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnb button{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(62, 62, 238, 0.808);
+    border-style:double;
+    border-color: rgba(62, 62, 238, 0.808);
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btnb button:hover{
+    background-color: white;
+    color: rgba(62, 62, 238, 0.808);
+}
+
+/*Button B*/
+
+/*Button C*/
+
+.btnc{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnc button{
+    width: 200px;
+    height: 40px;
+    background-color: #d004f8dc;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btnc button:hover{
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.219));
+}
+
+/*Button C*/
