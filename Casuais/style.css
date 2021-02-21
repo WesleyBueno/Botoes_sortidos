@@ -1,9 +1,13 @@
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(240, 215, 219);
 }
+
 .casuais{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -17,10 +21,11 @@ body{
 }
 
 .btna button{
+    margin: 40px;
     width: 200px;
     height: 40px;
     border: none;
-    background:  #0fe73e;
+    background:  #2feb58;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -30,6 +35,26 @@ body{
 }
 
 .btna button:hover{
+    background-color: white;
+    color: black;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.205));
+}
+
+.btna button:nth-child(2){
+    background:  #9a42ff;
+}
+
+.btna button:hover:nth-child(2){
+    background-color: white;
+    color: black;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.205));
+}
+
+.btna button:nth-child(3){
+    background:   #3e3eeece;
+}
+
+.btna button:hover:nth-child(3){
     background-color: white;
     color: black;
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.205));
@@ -47,11 +72,12 @@ body{
 }
 
 .btnb button{
+    margin: 40px;
     width: 200px;
     height: 40px;
-    background-color: rgba(62, 62, 238, 0.808);
+    background-color: #2feb58;
     border-style:double;
-    border-color: rgba(62, 62, 238, 0.808);
+    border-color: #2feb58;
     border-radius: 17px;
     font-size: 15px;
     color: white;
@@ -61,8 +87,29 @@ body{
 
 .btnb button:hover{
     background-color: white;
-    color: rgba(62, 62, 238, 0.808);
+    color: #2feb58;
 }
+
+.btnb button:nth-child(2){
+    background-color: #9a42ff;
+    border-color: #9a42ff;
+}
+
+.btnb button:hover:nth-child(2){
+    background-color: white;
+    color: #9a42ff;
+}
+
+.btnb button:nth-child(3){
+    background-color: #3e3eeece;
+    border-color: #3e3eeece;
+}
+
+.btnb button:hover:nth-child(3){
+    background-color: white;
+    color: #3e3eeece;
+}
+
 
 /*Button B*/
 
@@ -77,19 +124,134 @@ body{
 }
 
 .btnc button{
+    margin: 40px;
     width: 200px;
     height: 40px;
-    background-color: #d004f8dc;
-    border: none;
+    background-color: transparent;
+    border-color: #2feb58;
     border-radius: 17px;
-    color: white;
+    color: #05a528;
     font-size: 15px;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .btnc button:hover{
-    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.219));
+    background-color: #2feb58;
+    color: white;
+    border-color: white;
+}
+
+.btnc button:nth-child(2){
+    border-color: #9a42ff;
+    border-radius: 17px;
+    color: #9a42ff;
+}
+
+.btnc button:hover:nth-child(2){
+    background-color: #9a42ff;
+    color: white;
+    border-color: white;
+}
+
+.btnc button:nth-child(3){
+    border-color: #3e3eeece;
+    border-radius: 17px;
+    color: #3e3eeece;
+}
+
+.btnc button:hover:nth-child(3){
+    background-color: #3e3eeece;
+    color: white;
+    border-color: white;
 }
 
 /*Button C*/
+
+/*Button D*/
+
+.btnd{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnd button{
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: #2feb58;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    color: white;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.205));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btnd button:hover{
+    border-radius: 17px;
+    background-color: #00c42a;
+    
+}
+
+.btnd button:nth-child(2){
+    background-color: #9a42ff;
+}
+
+.btnd button:hover:nth-child(2){
+    background-color: #720ee6
+}
+
+.btnd button:nth-child(3){
+    background-color: #3e3eeece;
+}
+
+.btnd button:hover:nth-child(3){
+    background-color: #0808dfce;
+}
+/*Button D*/
+
+/*Button E*/
+
+.btne{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btne button{
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: #2feb58;
+    border: none;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.205));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btne button:hover{
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+}
+
+.btne button:nth-child(2){
+    background-color: #9a42ff;
+}
+
+.btne button:nth-child(3){
+    background-color: #3e3eeece;
+}
+
+
+/*Button E*/
