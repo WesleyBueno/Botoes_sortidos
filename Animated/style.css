@@ -1,0 +1,465 @@
+body{
+    background-color: rgba(63, 12, 182, 0.747);
+}
+
+.animated{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Button A*/
+
+.btna{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btna a{
+    width: 200px;
+    height: 40px;
+    margin: 40px;
+    position: relative;
+    display: inline-block;
+    padding-top:  20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #262c37;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.btna a:hover{
+    color: #2894ff;
+}
+
+.btna a:hover:nth-child(2){
+    color: #41ff28;
+}
+
+.btna a:hover:nth-child(3){
+    color: #ff2828;
+}
+
+.btna a span{
+    display: block;
+    position: absolute;
+    background-color: #2894ff;
+}
+
+.btna a:nth-child(2) span{
+    background-color: #41ff28;
+}
+
+.btna a:nth-child(3) span{
+    background-color: #ff2828;
+}
+
+.btna a span:nth-child(1){
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.btna a:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.btna a span:nth-child(2){
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.btna a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+
+.btna a span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btna a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.btna a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btna a:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+/*Button A*/
+
+/*Button B*/
+
+.btnb{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnb a{
+    width: 200px;
+    height: 40px;
+    margin: 40px;
+    position: relative;
+    display: inline-block;
+    padding-top:  20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #262c37;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+
+.btnb a:hover{
+    color: white;
+    background-color: #2894ff;
+    transition-delay: 0.7s;
+}
+
+.btnb a:hover:nth-child(2){
+    color: white;
+    background-color: #41ff28;
+    transition-delay: 0.7s;
+}
+
+.btnb a:hover:nth-child(3){
+    color: white;
+    background-color: #ff2828;
+    transition-delay: 0.7s;
+}
+
+.btnb a span{
+    display: block;
+    position: absolute;
+    background-color: #2894ff;
+}
+
+.btnb a:nth-child(2) span{
+    background-color: #41ff28;
+}
+
+.btnb a:nth-child(3) span{
+    background-color: #ff2828;
+}
+
+
+.btnb a span:nth-child(1){
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.btnb a:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.btnb a span:nth-child(2){
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.btnb a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+
+.btnb a span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btnb a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.btnb a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btnb a:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+/*Button B*/
+
+
+/*Button C*/
+
+.btnc{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+.btnc a{
+    position: relative;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    margin: 40px;
+    text-transform: uppercase;
+    background: #191919;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.btnc a span{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    transition: 0s ease-in;
+}
+
+.btnc a:hover span{
+    transition: 0.4s ease-in;
+    transform: translateY(-100%);
+}
+
+.btnc a:before{
+    content: '';
+    position: absolute;
+    bottom: -290px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 290px;
+    background-color: #2894ff;
+    border-radius:50% ;
+    transition: 0.4s ease-in;
+}
+
+.btnc a:nth-child(2):before{
+    background-color: #41ff28;
+}
+
+.btnc a:nth-child(3):before{
+    background-color: #ff2828;
+}
+
+.btnc a:hover:before{
+    bottom: -150px;
+}
+
+.btnc a:nth-child(2):before{
+    bottom: 90px;
+}
+
+.btnc a:nth-child(2):hover:before{
+    bottom: -90px;
+}
+/*Button C*/
+
+/*Button D*/
+
+.btnd{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btnd a{
+    margin: 40px;
+    position: relative;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btnd a:hover{
+    background:  #730bec url(/Animated/pixel2.png);
+    transition-delay:0.5s ;
+    background-size: 180px;
+    animation: animate 0.6s steps(8) forwards;
+}
+
+.btnd a:nth-child(2):hover{
+    background:#41ff28  url(/Animated/pixel3.png);
+    transition-delay:0.5s ;
+    background-size: 180px;
+    animation: animate 0.6s steps(8) forwards;
+}
+
+.btnd a:nth-child(3):hover{
+    background:#ec0b36  url(/Animated/pixel.png);
+    transition-delay:0.8s ;
+    background-size: 180px;
+    animation: animate 0.6s steps(8) forwards;
+}
+
+@keyframes animate{
+    0%{
+        background-position-y: 0;
+    }
+    100%{
+        background-position-y: -480px;
+    }
+}
+
+/*Button D*/
+
+/*Button E*/
+
+.btne{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btne a{
+    margin: 40px;
+    position: relative;
+    width: 220px;
+    height: 55px;
+    font-size: 24px;
+    color: #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btne a:hover{
+    color: #fff;
+}
+
+.btne a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: url(/Animated/btn-bg1.png);
+    background-size:cover;
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.btne a:nth-child(2):before{
+    background: url(/Animated/btn-bg2.png);
+    background-size: cover;
+}
+
+.btne a:nth-child(3):before{
+    background: url(/Animated/btn-bg3.png);
+    background-size: cover;
+}
+
+.btne a:hover:before{
+    width: 100%;
+}
+
+.btne a span{
+    position: relative;
+    z-index: 1;
+}
+
+/*Button E*/
